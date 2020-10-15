@@ -2,24 +2,24 @@
 <html lang="nl">
 
 <head>
-  <script src="https://use.fontawesome.com/d3e887fe22.js"></script>
-  <script src="https://kit.fontawesome.com/acd3f528b0.js" crossorigin="anonymous"></script>
-  <!-- Meta tags -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
-  <meta name="viewport" content="width=device-width" />
+    <script src="https://use.fontawesome.com/d3e887fe22.js"></script>
+    <script src="https://kit.fontawesome.com/acd3f528b0.js" crossorigin="anonymous"></script>
+    <!-- Meta tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta name="viewport" content="width=device-width" />
 
-  <!-- Favicon and title -->
-  <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png" />
-  <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png" />
-  <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png" />
-  <link rel="manifest" href="/site.webmanifest" />
-  <title>Verzuim</title>
+    <!-- Favicon and title -->
+    <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Verzuim</title>
 
-  <!-- Halfmoon CSS -->
-  <link href="halfmoon/css/halfmoon-variables.min.css" rel="stylesheet" />
-  <!--
+    <!-- Halfmoon CSS -->
+    <link href="halfmoon/css/halfmoon-variables.min.css" rel="stylesheet" />
+    <!--
     Or,
     Use the following (no variables, supports IE11):
     <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.0/css/halfmoon.min.css" rel="stylesheet" />
@@ -27,136 +27,124 @@
   -->
 </head>
 
-<body class="with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true"
-  data-sidebar-shortcut-enabled="true" data-set-preferred-mode-onload="true">
-  <!-- Modals go here -->
-  <!-- Reference: https://www.gethalfmoon.com/docs/modal -->
+<body class="with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true" data-sidebar-shortcut-enabled="true" data-set-preferred-mode-onload="true">
+    <!-- Modals go here -->
+    <!-- Reference: https://www.gethalfmoon.com/docs/modal -->
 
-  <!-- Page wrapper start -->
-  <div class="page-wrapper with-navbar with-sidebar">
-    <!-- Sticky alerts (toasts), empty container -->
-    <!-- Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts -->
-    <div class="sticky-alerts"></div>
+    <!-- Page wrapper start -->
+    <div class="page-wrapper with-navbar with-sidebar">
+        <!-- Sticky alerts (toasts), empty container -->
+        <!-- Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts -->
+        <div class="sticky-alerts"></div>
 
-    <!-- Navbar start -->
-    <nav class="navbar">
-      <div class="navbar-content">
-        <button class="btn" type="button" onclick="halfmoon.toggleSidebar()">
+        <!-- Navbar start -->
+        <nav class="navbar">
+            <div class="navbar-content">
+                <button class="btn" type="button" onclick="halfmoon.toggleSidebar()">
           <i class="fa fa-bars" aria-hidden="true"></i>
         </button>
-      </div>
-      <a href="#" class="navbar-brand">
-        <img src="media/logo/scrumgitdarkmodetransparent.png" alt="" /> Scrum Boomer
-      </a>
-      <!-- Reference: https://www.gethalfmoon.com/docs/navbar -->
-    </nav>
-    <!-- Navbar end -->
+            </div>
+            <a href="#" class="navbar-brand">
+                <img src="media/logo/scrumgitdarkmodetransparent.png" alt="" /> Scrum Boomer
+            </a>
+            <!-- Reference: https://www.gethalfmoon.com/docs/navbar -->
+        </nav>
+        <!-- Navbar end -->
 
-    <!-- Sidebar start -->
-    <div class="sidebar">
-      <!-- Reference: https://www.gethalfmoon.com/docs/sidebar -->
-      <div class="sidebar-menu">
-        <h5 class="sidebar-title"></h5>
-        <div class="sidebar-divider"></div>
-        <a href="/index.html" class="sidebar-link"> <em class="fas fa-home"> </em> Home</a>
-        <a href="/about.html" class="sidebar-link"> <em class="fas fa-info-circle"> </em> About</a>
-        <br />
-        <h5 class="sidebar-title">Vakken</h5>
-        <div class="sidebar-divider"></div>
-        <a href="/compthink.html" class="sidebar-link"> <em class="fas fa-robot"> </em> Computational Thinking
-        </a>
-        <a href="/htmlclass.html" class="sidebar-link"> <em class="fab fa-html5"> </em> HTML</a>
-        <a href="/javaclass.html" class="sidebar-link"> <em class="fab fa-java"> </em> Java</a>
-        <a href="/KDVS.html" class="sidebar-link"> <em class="fab fa-linkedin"> </em> KD Verdiepings Software
-        </a>
-        <a href="/LB.html" class="sidebar-link"> <em class="fas fa-male"> </em> L&B</a>
-        <a href="/NLclass.html" class="sidebar-link"> <em class="fas fa-language"> </em> Nederlands</a>
-        <a href="/Pythonclass.html" class="sidebar-link"> <em class="fab fa-python"> </em> Python</a>
-        <a href="/rekenen.html" class="sidebar-link"> <em class="fas fa-calculator"> </em> Rekenen</a>
-        <a href="/scrumgit.html" class="sidebar-link"> <em class="fas fa-code-branch"> </em> Scrum/Git</a>
-        <a href="/ENclass.html" class="sidebar-link"> <em class="fas fa-mug-hot"> </em> Engels</a>
-        <a href="/ITEss.html" class="sidebar-link"> <em class="fas fa-desktop"> </em> IT Essentials</a>
-        <a href="/NetEss.html" class="sidebar-link"> <em class="fas fa-rss"> </em> Networking Essentials</a>
-        <br />
-        <h5 class="sidebar-title">Belangrijke Info lessen</h5>
-        <div class="sidebar-divider"></div>
-        <a href="/CoronaMaat.html" class="sidebar-link"> <em class="fas fa-bacteria"> </em> Corona Maatregelen</a>
-        <br />
-        <h5 class="sidebar-title">Belangrijke Info School</h5>
-        <div class="sidebar-divider"></div>
-        <a href="/Stage.html" class="sidebar-link"> <em class="fas fa-briefcase"> </em> Stages</a>
+        <!-- Sidebar start -->
+        <div class="sidebar">
+            <!-- Reference: https://www.gethalfmoon.com/docs/sidebar -->
+            <div class="sidebar-menu">
+                <h5 class="sidebar-title"></h5>
+                <div class="sidebar-divider"></div>
+                <a href="/index.html" class="sidebar-link"> <em class="fas fa-home"> </em> Home</a>
+                <a href="/about.html" class="sidebar-link"> <em class="fas fa-info-circle"> </em> About</a>
+                <br />
+                <h5 class="sidebar-title">Vakken</h5>
+                <div class="sidebar-divider"></div>
+                <a href="/compthink.html" class="sidebar-link"> <em class="fas fa-robot"> </em> Computational Thinking
+                </a>
+                <a href="/htmlclass.html" class="sidebar-link"> <em class="fab fa-html5"> </em> HTML</a>
+                <a href="/javaclass.html" class="sidebar-link"> <em class="fab fa-java"> </em> Java</a>
+                <a href="/KDVS.html" class="sidebar-link"> <em class="fab fa-linkedin"> </em> KD Verdiepings Software
+                </a>
+                <a href="/LB.html" class="sidebar-link"> <em class="fas fa-male"> </em> L&B</a>
+                <a href="/NLclass.html" class="sidebar-link"> <em class="fas fa-language"> </em> Nederlands</a>
+                <a href="/Pythonclass.html" class="sidebar-link"> <em class="fab fa-python"> </em> Python</a>
+                <a href="/rekenen.html" class="sidebar-link"> <em class="fas fa-calculator"> </em> Rekenen</a>
+                <a href="/scrumgit.html" class="sidebar-link"> <em class="fas fa-code-branch"> </em> Scrum/Git</a>
+                <a href="/ENclass.html" class="sidebar-link"> <em class="fas fa-mug-hot"> </em> Engels</a>
+                <a href="/ITEss.html" class="sidebar-link"> <em class="fas fa-desktop"> </em> IT Essentials</a>
+                <a href="/NetEss.html" class="sidebar-link"> <em class="fas fa-rss"> </em> Networking Essentials</a>
+                <br />
+                <h5 class="sidebar-title">Belangrijke Info lessen</h5>
+                <div class="sidebar-divider"></div>
+                <a href="/CoronaMaat.html" class="sidebar-link"> <em class="fas fa-bacteria"> </em> Corona Maatregelen</a>
+                <br />
+                <h5 class="sidebar-title">Belangrijke Info School</h5>
+                <div class="sidebar-divider"></div>
+                <a href="/Stage.html" class="sidebar-link"> <em class="fas fa-briefcase"> </em> Stages</a>
+                <a href="/verzuim.html" class="sidebar-link active"> <em class="fas fa-user-clock"> </em> Verzuim</a>
 
-      </div>
-    </div>
-    <!-- Sidebar end -->
+            </div>
+        </div>
+        <!-- Sidebar end -->
 
-    <!-- Content wrapper start -->
-    <div class="content-wrapper">
-      <div class="content">
-        <h1 class="content-title font-size-22 font-weight-bolder">
-          Verzuim
-        </h1>
-        <p class="text-justify">
-          Verzuimen is niet altijd even handig maar soms moet het.
-          <br />Om ervoor te zorgen dat er geen problemen van komen staat wat je moet doen per type absentie.
-          <div class="card">
-            <h2 class="card-title">
-              Ongeoorloofd verzuim
-            </h2>
-            <p>
-              Ben je te laat of afwezig, zonder geldige reden zoals:
-              luxe verzuim zoals vakantie (deels) buiten de schoolvakanties om, lang weekend weg, familiebezoek,
-              spijbelen, verslapen, werken, autorijles / theorieles
-              bezoek arts, et cetera wat ook buiten schooltijd kan.
-            </p>
-          </div>
-          <div class="card">
-            <h2 class="card-title">
-              Geoorloofd verzuim
-            </h2>
-            <p>
-              Kan je niet aanwezig zijn of meedoen met een les zoals gym door een geoorloofde reden zoals, Ziekte, een
-              afspraak bij een orthodontist of arts, een rijexamen een trouwerij, een bleseure of andere dingen die niet
-              verplaatst kunnen worden maar wel belangrijk is.
-              Meld dit wel altijd minimaal een dag van te voren bij een presentiemedewerk(st)er.
-            </p>
-          </div>
-          <div class="card">
-            <h2 class="card-title">
-              Ziekte
-            </h2>
-            <p>
-              Als je ziek bent zoals als bij corona verschijnselen of andere dingen waardoor je niet naar school kan
-              komen, bel dan naar het PresentiePunt. Voor de telefoon nummers ga naar het kopje "PresentiePunt".
-              Bij personen onder 18 moeten de ouders of verzorgers bellen naar het PresentiePunt.
-              Alle personen boven de 18 horen zelf te bellen naar het PresentiePunt.
-            </p>
-          </div>
-          <div class="card">
-            <h2 class="card-title">
-              PresentiePunt
-            </h2>
-            <p>
-              Hieronder staan alle telefoon-nummers van het PresentiePunt. Het kan zijn dat er per locatie meerdere
-              nummers zijn. achter de locatie staat dan de opleidings-plek of richting.<br /><br />
-              Marterstraat - 06 19493355<br />
-              Boxmeer - 024 8904192<br />
-              Technovium/Heyendaalseweg - 024 8904300<br />
-              Energieweg - 024 8904221<br />
-              Campusbaan (Cas Spijkers Academie, Facilitaire Dienstverlening, Horeca, Brood en Banket, Toerisme en
-              Recreatie en Maatschappelijke Zorg) - 024 8904100<br />
-              Campusbaan (Financiële Beroepen, Juridisch, Detailhandel, MCE, Secretarieel) - 024 8904200<br />
-              Campusbaan (Assistenten Gezondheidszorg, Dienstverlening, Entree, Pedagogisch Werk, Sport en Bewegen,
-              Uiterlijke Verzorging, Verpleging, Verzorging) - 024 8904400
-            </p>
-          </div>
-      </div>
-      <!-- Content wrapper end -->
-    </div>
-    <!-- Page wrapper end -->
+        <!-- Content wrapper start -->
+        <div class="content-wrapper">
+            <div class="content">
+                <h1 class="content-title font-size-22 font-weight-bolder">
+                    Verzuim
+                </h1>
+                <p class="text-justify">
+                    Verzuimen is niet altijd even handig maar soms moet het.
+                    <br />Om ervoor te zorgen dat er geen problemen van komen staat wat je moet doen per type absentie.
+                    <div class="card">
+                        <h2 class="card-title">
+                            Ongeoorloofd verzuim
+                        </h2>
+                        <p>
+                            Ben je te laat of afwezig, zonder geldige reden zoals: luxe verzuim zoals vakantie (deels) buiten de schoolvakanties om, lang weekend weg, familiebezoek, spijbelen, verslapen, werken, autorijles / theorieles bezoek arts, et cetera wat ook buiten schooltijd
+                            kan.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h2 class="card-title">
+                            Geoorloofd verzuim
+                        </h2>
+                        <p>
+                            Kan je niet aanwezig zijn of meedoen met een les zoals gym door een geoorloofde reden zoals, Ziekte, een afspraak bij een orthodontist of arts, een rijexamen een trouwerij, een bleseure of andere dingen die niet verplaatst kunnen worden maar wel belangrijk
+                            is. Meld dit wel altijd minimaal een dag van te voren bij een presentiemedewerk(st)er.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h2 class="card-title">
+                            Ziekte
+                        </h2>
+                        <p>
+                            Als je ziek bent zoals als bij corona verschijnselen
+                            <a href="/CoronaMaat.html"> </class=> (Zie corona maatregelen pagina)</a> of andere dingen waardoor je niet naar school kan komen, bel dan naar het PresentiePunt. Voor de telefoon nummers ga naar het kopje "PresentiePunt". Bij personen onder 18 moeten
+                            de ouders of verzorgers bellen naar het PresentiePunt. Alle personen boven de 18 horen zelf te bellen naar het PresentiePunt.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <h2 class="card-title">
+                            PresentiePunt
+                        </h2>
+                        <p>
+                            Hieronder staan alle telefoon-nummers van het PresentiePunt. Het kan zijn dat er per locatie meerdere nummers zijn. achter de locatie staat dan de opleidings-plek of richting.<br /><br /> Marterstraat - 06 19493355<br /> Boxmeer
+                            - 024 8904192<br /> Technovium/Heyendaalseweg - 024 8904300<br /> Energieweg - 024 8904221<br /> Campusbaan (Cas Spijkers Academie, Facilitaire Dienstverlening, Horeca, Brood en Banket, Toerisme en Recreatie en Maatschappelijke
+                            Zorg) - 024 8904100<br /> Campusbaan (Financiële Beroepen, Juridisch, Detailhandel, MCE, Secretarieel) - 024 8904200<br /> Campusbaan (Assistenten Gezondheidszorg, Dienstverlening, Entree, Pedagogisch Werk, Sport en Bewegen,
+                            Uiterlijke Verzorging, Verpleging, Verzorging) - 024 8904400
+                        </p>
+                    </div>
+            </div>
+            <!-- Content wrapper end -->
+        </div>
+        <!-- Page wrapper end -->
 
-    <!-- Halfmoon JS -->
-    <script src="halfmoon/js/halfmoon.min.js"></script>
+        <!-- Halfmoon JS -->
+        <script src="halfmoon/js/halfmoon.min.js"></script>
 </body>
 
 </html>
