@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://use.fontawesome.com/d3e887fe22.js"></script>
+    <script
+      src="https://kit.fontawesome.com/acd3f528b0.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Meta tags -->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+      name="viewport"
+    />
+    <meta name="viewport" content="width=device-width" />
+
+    <!-- Favicon and title -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="Images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="Images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="Images/favicon-16x16.png"
+    />
+    <link rel="manifest" href="/site.webmanifest" />
+    <title>Starter template - Halfmoon</title>
+
+    <!-- Halfmoon CSS -->
+    <link href="halfmoon/css/halfmoon-variables.min.css" rel="stylesheet" />
+    <!--
+    Or,
+    Use the following (no variables, supports IE11):
+    <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.0/css/halfmoon.min.css" rel="stylesheet" />
+    Learn more: https://www.gethalfmoon.com/docs/customize/#notes-on-browser-compatibility
+  --></head>
+
+  <body
+    class="with-custom-webkit-scrollbars with-custom-css-scrollbars"
+    data-dm-shortcut-enabled="true"
+    data-sidebar-shortcut-enabled="true"
+    data-set-preferred-mode-onload="true"
+  >
+    <!-- Modals go here -->
+    <!-- Reference: https://www.gethalfmoon.com/docs/modal -->
+
+    <!-- Page wrapper start -->
+    <div class="page-wrapper with-navbar with-sidebar">
+      <!-- Sticky alerts (toasts), empty container -->
+      <!-- Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts -->
+      <div class="sticky-alerts"></div>
+
+      <!-- Navbar start -->
+      <nav class="navbar">
+        <div class="navbar-content">
+          <button class="btn" type="button" onclick="halfmoon.toggleSidebar()">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+        <a href="#" class="navbar-brand">
+          <img src="media/logo/scrumgitdarkmodetransparent.png" alt="" /> Scrum
+          Boomer
+        </a>
+        <button class="btn btn-action mr-5 ml-auto" type="button" onclick="halfmoon.toggleDarkMode()" aria-label="Toggle dark mode">
+                    <i class="fa fa-moon-o" aria-hidden="true"></i>
+                </button>
+        <!-- Reference: https://www.gethalfmoon.com/docs/navbar -->
+      </nav>
+      
+      <!-- Navbar end -->
+
+      <!-- Sidebar start -->
+      <div class="sidebar">
+        <!-- Reference: https://www.gethalfmoon.com/docs/sidebar -->
+        <div class="sidebar-menu">
+                <h5 class="sidebar-title"></h5>
+                <div class="sidebar-divider"></div>
+                <a href="/index.html" class="sidebar-link"> <em class="fas fa-home"> </em> Home</a>
+                <a href="/about.html" class="sidebar-link"> <em class="fas fa-info-circle"> </em> About</a>
+                <br />
+                <h5 class="sidebar-title">Vakken</h5>
+                <div class="sidebar-divider"></div>
+                <a href="/compthink.html" class="sidebar-link"> <em class="fas fa-robot"> </em> Computational Thinking</a>
+                <a href="/htmlclass.html" class="sidebar-link"> <em class="fab fa-html5"> </em> HTML</a>
+                <a href="/javaclass.html" class="sidebar-link"> <em class="fab fa-java"> </em> Java</a>
+                <a href="/KDVS.html" class="sidebar-link"> <em class="fab fa-linkedin"> </em> KD Verdiepings Software</a>
+                <a href="/LB.html" class="sidebar-link"> <em class="fas fa-male"> </em> L&B</a>
+                <a href="/NLclass.html" class="sidebar-link"> <em class="fas fa-language"> </em> Nederlands</a>
+                <a href="/Pythonclass.html" class="sidebar-link"> <em class="fab fa-python"> </em> Python</a>
+                <a href="/rekenen.html" class="sidebar-link"> <em class="fas fa-calculator"> </em> Rekenen</a>
+                <a href="/scrumgit.html" class="sidebar-link"> <em class="fas fa-code-branch"> </em> Scrum/Git</a>
+                <a href="/ENclass.html" class="sidebar-link"> <em class="fas fa-mug-hot"> </em> Engels</a>
+                <a href="/ITEss.html" class="sidebar-link"> <em class="fas fa-desktop"> </em> IT Essentials</a>
+                <a href="/NetEss.html" class="sidebar-link"> <em class="fas fa-rss"> </em> Networking Essentials</a>
+                <br />
+                <h5 class="sidebar-title">Belangrijke Info lessen</h5>
+                <div class="sidebar-divider"></div>
+                <a href="/CoronaMaat.html" class="sidebar-link"> <em class="fas fa-bacteria"> </em> Corona Maatregelen</a>
+                <br />
+                <h5 class="sidebar-title">Belangrijke Info School</h5>
+                <div class="sidebar-divider"></div>
+                <a href="/Stage.html" class="sidebar-link"> <em class="fas fa-briefcase"> </em> Stages</a>
+                <a href="/OER&Studieadvies.html" class="sidebar-link"> <em class="fas fa-user-graduate"> </em> OER & Studie Advies</a>
+                <a href="/verzuim.html" class="sidebar-link"> <em class="fas fa-user-clock"> </em> Verzuim</a>
+                <a href="/docent.html" class="sidebar-link active"> <em class="fas fa-users"> </em> Team</a>
+            </div>
+      </div>
+      <!-- Sidebar end -->
+
+      <!-- Content wrapper start -->
+      <div class="content-wrapper">
+        <div class="container-fluid">
+            <div class="row">
+              <div class="card w-250 p-0">
+                <img
+                  src="Images/docenten/bart.jpg.png"
+                  class="img-fluid rounded-top"
+                  alt="Bart Kuppeveld"
+                />
+                <h2 class="card-title pl-5">Bart Kuppeveld</h2>
+                <p class="pl-5">
+                  Geeft: <a href="/scrumgit.html">Scrum/Git</a> &
+                  <a href="/KDVS.html">KD Verdiepings Software</a>
+                </p>
+                <p class="pl-5">
+                  Contact:<a href="mailto: b.kuppeveld@roc-nijmegen.nl"> b.kuppeveld@roc-nijmegen.nl</a>
+                </p>
+              </div>
+              <div class="card w-250 p-0">
+                <img
+                  src="Images/docenten/davor.jpg.png"
+                  class="img-fluid rounded-top"
+                  alt="Radic Davor"
+                />
+                <h2 class="card-title pl-5">Radic Davor</h2>
+                <p class="pl-5">
+                  Geeft: <a href="/htmlclass.html">HTML</a>,
+                  <a href="/compthink.html">Computational Thinking</a> &
+                  <a href="/Pythonclass.html"> Python</a>
+                </p>
+                <p class="pl-5">
+                  Contact:<a href="mailto: d.radic@roc-nijmegen.nl"> d.radic@roc-nijmegen.nl</a>
+                </p>
+              </div>
+              <div class="card w-250 p-0">
+                <img
+                  src="Images/docenten/henk.png"
+                  class="img-fluid rounded-top w-full"
+                  alt="Henk Jansen"
+                />
+                <h2 class="card-title pl-5">Henk Jansen</h2>
+                <p class="pl-5">
+                  Geeft: <a href="/rekenen.html">Rekenen</a>
+                </p>
+                <p class="pl-5">
+                  Contact:<a href="mailto: h.jansen@roc-nijmegen.nl"> h.jansen@roc-nijmegen.nl</a>
+                </p>
+              </div>
+              <div class="card w-250 p-0">
+                <img
+                  src="Images/docenten/jan.jpg.png"
+                  class="img-fluid rounded-top"
+                  alt="Jan Meeuwsen"
+                />
+                <h2 class="card-title pl-5">Jan Meeuwsen</h2>
+                <p class="pl-5">
+                  Taak: Opleidings Coordinator
+                </p>
+                <p class="pl-5">
+                  Contact:<a href="mailto: j.meeuwissen@roc-nijmegen.nl"> j.meeuwissen@roc-nijmegen.nl</a>
+                </p>
+              </div>
+              <div class="card w-250 p-0">
+                <img
+                  src="Images/docenten/jara.jpg.png"
+                  class="img-fluid rounded-top"
+                  alt="Jara de Boo"
+                />
+                <h2 class="card-title pl-5">Jara de Boo</h2>
+                <p class="pl-5">
+                  Geeft: <a href="/NLclass.html">Nederlands</a>
+                </p>
+                <p class="pl-5">
+                  Contact:<a href="mailto: j.deboo@roc-nijmegen.nl"> j.deboo@roc-nijmegen.nl</a>
+                </p>
+              </div>
+              <div class="card w-250 p-0">
+                <img
+                  src="Images/docenten/jet.png"
+                  class="img-fluid rounded-top w-full"
+                  alt="Jet van Wichen"
+                />
+                <h2 class="card-title pl-5">Jet van Wichen</h2>
+                <p class="pl-5">
+                  Geeft: <a href="/LB.html">Loopbaan & Burgerschap</a>
+                </p>
+                <p class="pl-5">
+                  Contact:<a href="mailto: j.vanwichen@roc-nijmegen.nl"> j.vanwichen@roc-nijmegen.nl</a>
+                </p>
+              </div>
+              <div class="card w-250 p-0">
+                <img
+                  src="Images/docenten/niek.png"
+                  class="img-fluid rounded-top w-full"
+                  alt="Niek Brock"
+                />
+                <h2 class="card-title pl-5">Niek Brock</h2>
+                <p class="pl-5">
+                  Geeft: <a href="/javaclass.html">Java</a>
+                </p>
+                <p class="pl-5">
+                  Contact:<a href="mailto: n.brock@roc-nijmegen.nl"> n.brock@roc-nijmegen.nl</a>
+                </p>
+              </div>
+              <div class="card w-250 p-0">
+                <img
+                  src="Images/docenten/marco.jpg.png"
+                  class="img-fluid rounded-top w-full"
+                  alt="Marco van Meerwijck"
+                />
+                <h2 class="card-title pl-5">Marco van Meerwijck</h2>
+                <p class="pl-5">
+                  Geeft: <a href="/ITEss.html">IT Essentials</a>, 
+                  <a href="/NetEss.html">Networking Essentials</a>, 
+                  <a href="/ENclass.html">Engels</a> & Studieloopbaan Begeleiding
+                </p>
+                <p class="pl-5">
+                  Contact:<a href="mailto: m.vanmeerwijck@roc-nijmegen.nl"> m.vanmeerwijck@roc-nijmegen.nl</a> & <a href="tel:0031639827695">+31 6 398 276 95</a>
+                </p>
+              </div>
+            <div class="card w-250 p-0">
+                <img
+                  src="Images/docenten/marleen.png"
+                  class="img-fluid rounded-top w-full"
+                  alt="Marleen van Beek"
+                />
+                <h2 class="card-title pl-5">Marleen van Beek</h2>
+                <p class="pl-5">
+                  Taak: Trajectbegeleidster
+                </p>
+                <p class="pl-5">
+                  Contact:<a href="mailto: m.vanbeek@roc-nijmegen.nl"> m.vanbeek@roc-nijmegen.nl</a>
+                </p>
+              </div>
+              <div class="card w-250 p-0">
+                <img
+                  src="Images/docenten/eloonen.jfif"
+                  class="img-fluid rounded-top w-full"
+                  alt="Marleen van Beek"
+                />
+                <h2 class="card-title pl-5">Els Loonen</h2>
+                <p class="pl-5">
+                  Taak: Trajectbegeleidster
+                </p>
+                <p class="pl-5">
+                  Contact:<a href="mailto: e.lonen@roc-nijmegen.nl"> e.lonen@roc-nijmegen.nl</a>
+                </p>
+              </div>
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Content wrapper end -->
+    </div>
+    <!-- Page wrapper end -->
+
+    <!-- Halfmoon JS -->
+    <script src="halfmoon/js/halfmoon.min.js"></script>
+  </body>
+</html>

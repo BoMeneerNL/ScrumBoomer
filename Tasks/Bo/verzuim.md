@@ -2,7 +2,7 @@
 
 het verzuim systeem der ROC-nijmegense regels achtige
 
-### comments
+### Comments
 
 * deze locatie heeft meerdere nummers kijk tussen voor welke opleidingen er tot dat nummer toe behoren
 
@@ -19,7 +19,7 @@ meld dit wel altijd minimaal een dag van te voren bij een presentiemedewerker
 
 ## Ziek
 
-als je ziet bent zoals corona verschijnselen of overige dingen waardoor je niet naar school kan gaan wat je moet doen lees hier onder bij "boven en onder de 18"
+als je ziek bent zoals corona verschijnselen of overige dingen waardoor je niet naar school kan gaan wat je moet doen lees hier onder bij "boven en onder de 18"
 
 ### boven de 18
 
