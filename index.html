@@ -1,19 +1,38 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <script src="https://use.fontawesome.com/d3e887fe22.js"></script>
-    <script src="https://kit.fontawesome.com/acd3f528b0.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/acd3f528b0.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- Meta tags -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+    <meta
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"
+      name="viewport"
+    />
     <meta name="viewport" content="width=device-width" />
 
     <!-- Favicon and title -->
-    <link rel="apple-touch-icon" sizes="180x180" href="Images/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="Images/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="Images/favicon-16x16.png" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="Images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="Images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="Images/favicon-16x16.png"
+    />
     <link rel="manifest" href="/site.webmanifest" />
     <title>ScrumBoomer</title>
 
@@ -24,35 +43,179 @@
     Use the following (no variables, supports IE11):
     <link href="https://cdn.jsdelivr.net/npm/halfmoon@1.1.0/css/halfmoon.min.css" rel="stylesheet" />
     Learn more: https://www.gethalfmoon.com/docs/customize/#notes-on-browser-compatibility
-  -->
-</head>
+  --></head>
 
-<body class="with-custom-webkit-scrollbars with-custom-css-scrollbars" data-dm-shortcut-enabled="true" data-sidebar-shortcut-enabled="true" data-set-preferred-mode-onload="true">
+  <body
+    class="with-custom-webkit-scrollbars with-custom-css-scrollbars"
+    data-dm-shortcut-enabled="true"
+    data-sidebar-shortcut-enabled="true"
+    data-set-preferred-mode-onload="true"
+  >
     <!-- Modals go here -->
     <!-- Reference: https://www.gethalfmoon.com/docs/modal -->
 
     <!-- Page wrapper start -->
     <div class="page-wrapper with-navbar with-sidebar">
-        <!-- Sticky alerts (toasts), empty container -->
-        <!-- Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts -->
-        <div class="sticky-alerts"></div>
+      <!-- Sticky alerts (toasts), empty container -->
+      <!-- Reference: https://www.gethalfmoon.com/docs/sticky-alerts-toasts -->
+      <div class="sticky-alerts"></div>
 
-        <!-- Navbar start -->
-        <nav class="navbar">
-            <div class="navbar-content">
-                <button class="btn" type="button" onclick="halfmoon.toggleSidebar()">
-                    <i class="fa fa-bars" aria-hidden="true"></i>
-                </button>
+      <!-- Navbar start -->
+      <nav class="navbar">
+        <div class="navbar-content">
+          <button class="btn" type="button" onclick="halfmoon.toggleSidebar()">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+        </div>
+        <a href="#" class="navbar-brand">
+          <img src="media/logo/scrumgitdarkmodetransparent.png" alt="" /> Scrum
+          Boomer
+        </a>
+        <button
+          class="btn btn-action mr-5 ml-auto"
+          type="button"
+          onclick="halfmoon.toggleDarkMode()"
+          aria-label="Toggle dark mode"
+        >
+          <i class="fa fa-moon-o" aria-hidden="true"></i>
+        </button>
+        <!-- Reference: https://www.gethalfmoon.com/docs/navbar -->
+      </nav>
+
+      <!-- Navbar end -->
+
+      <!-- Sidebar start -->
+      <div class="sidebar">
+        <!-- Reference: https://www.gethalfmoon.com/docs/sidebar -->
+        <div class="sidebar-menu">
+          <h5 class="sidebar-title"></h5>
+          <div class="sidebar-divider"></div>
+          <a href="/index.html" class="sidebar-link active">
+            <em class="fas fa-home"> </em> Home</a
+          >
+          <a href="/about.html" class="sidebar-link">
+            <em class="fas fa-info-circle"> </em> About</a
+          >
+          <br />
+          <h5 class="sidebar-title">Vakken</h5>
+          <div class="sidebar-divider"></div>
+          <a href="/compthink.html" class="sidebar-link">
+            <em class="fas fa-robot"> </em> Computational Thinking</a
+          >
+          <a href="/htmlclass.html" class="sidebar-link">
+            <em class="fab fa-html5"> </em> HTML</a
+          >
+          <a href="/javaclass.html" class="sidebar-link">
+            <em class="fab fa-java"> </em> Java</a
+          >
+          <a href="/KDVS.html" class="sidebar-link">
+            <em class="fab fa-linkedin"> </em> KD Verdiepings Software</a
+          >
+          <a href="/LB.html" class="sidebar-link">
+            <em class="fas fa-male"> </em> L&B</a
+          >
+          <a href="/NLclass.html" class="sidebar-link">
+            <em class="fas fa-language"> </em> Nederlands</a
+          >
+          <a href="/Pythonclass.html" class="sidebar-link">
+            <em class="fab fa-python"> </em> Python</a
+          >
+          <a href="/rekenen.html" class="sidebar-link">
+            <em class="fas fa-calculator"> </em> Rekenen</a
+          >
+          <a href="/scrumgit.html" class="sidebar-link">
+            <em class="fas fa-code-branch"> </em> Scrum/Git</a
+          >
+          <a href="/ENclass.html" class="sidebar-link">
+            <em class="fas fa-mug-hot"> </em> Engels</a
+          >
+          <a href="/ITEss.html" class="sidebar-link">
+            <em class="fas fa-desktop"> </em> IT Essentials</a
+          >
+          <a href="/NetEss.html" class="sidebar-link">
+            <em class="fas fa-rss"> </em> Networking Essentials</a
+          >
+          <a href="/Overige.html" class="sidebar-link">
+            <em class="fas fa-user-graduate"> </em> SLB en SoM</a
+          >
+          <br />
+          <h5 class="sidebar-title">Belangrijke Info lessen</h5>
+          <div class="sidebar-divider"></div>
+          <a href="/CoronaMaat.html" class="sidebar-link">
+            <em class="fas fa-bacteria"> </em> Corona Maatregelen</a
+          >
+          <a href="/OnlineLes.html" class="sidebar-link">
+            <em class="fas fa-laptop-code"> </em> Online les</a
+          >
+          <br />
+          <h5 class="sidebar-title">Belangrijke Info School</h5>
+          <div class="sidebar-divider"></div>
+          <a href="/Stage.html" class="sidebar-link">
+            <em class="fas fa-briefcase"> </em> Stages</a
+          >
+          <a href="/OER&Studieadvies.html" class="sidebar-link">
+            <em class="fas fa-user-graduate"> </em> OER & Studie Advies</a
+          >
+          <a href="/verzuim.html" class="sidebar-link">
+            <em class="fas fa-user-clock"> </em> Verzuim</a
+          >
+          <a href="/docent.html" class="sidebar-link">
+            <em class="fas fa-users"> </em> Team</a
+          >
+        </div>
+      </div>
+      <!-- Sidebar end -->
+
+      <!-- Content wrapper start -->
+      <div class="content-wrapper">
+        <!--ALigned to the center-->
+        <div class="text-center">
+          <img src="Images/Banner.png" class="img-fluid rounded" alt="Banner" />
+        </div>
+        <br />
+
+        <div class="sidebar-divider">
+        </div>
+
+        <div class="content">
+          <h1 class="content-title">
+            Welkom op scrumboomer.tk
+          </h1>
+          <p class="text-justify">
+            Welkom bij ons scrum project. Wij hebben hier hard aan gewerkt, wilt u meer weten over het team dat de website heeft gemaakt? Kijk dan op de <a href="about.html">about</a> pagina. <br />
+            Neem gerust een kijkje rond de website, de belangrijke pagina's staan hieronder.
+          </p>
+        </div>
+
+        <div class="content align-content-center">
+          <h1 class="content-title">Aanbevolen pagina's</h1>
+        </div>
+
+        <div class="sidebar-divider">
+        </div>
+        
+        <div class="container-fluid">
+          <div class="row">
+            <div class="w-400 mw-full">
+              <div class="card p-0">
+                <img
+                  src="Images/Teams pagina ss.png"
+                  class="img-fluid rounded-top"
+                  alt="Teams pagina ss"
+                />
+                <div class="content">
+                  <h2 class="content-title">Teams pagina</h2>
+                  <p class="text-muted">
+                    Deze pagina is gemaakt door Ellie, hier wordt alles
+                    weergegeven over onze leraren, hoe hij of zij eruit ziet en
+                    welk vak ze geven.
+                  </p>
+                  <div class="text-right">
+                    <a href="docent.html" class="btn"> Lees verder </a>
+                  </div>
+                </div>
+              </div>
             </div>
-            <a href="#" class="navbar-brand">
-                <img src="media/logo/scrumgitdarkmodetransparent.png" alt="" /> Scrum Boomer
-            </a>
-            <button class="btn btn-action mr-5 ml-auto" type="button" onclick="halfmoon.toggleDarkMode()" aria-label="Toggle dark mode">
-                    <i class="fa fa-moon-o" aria-hidden="true"></i>
-                </button>
-            <!-- Reference: https://www.gethalfmoon.com/docs/navbar -->
-        </nav>
-
         <!-- Navbar end -->
 
         <!-- Sidebar start -->
@@ -90,29 +253,123 @@
                 <a href="/OER&Studieadvies.html" class="sidebar-link"> <em class="fas fa-user-graduate"> </em> OER & Studie Advies</a>
                 <a href="/verzuim.html" class="sidebar-link"> <em class="fas fa-user-clock"> </em> Verzuim</a>
                 <a href="/docent.html" class="sidebar-link"> <em class="fas fa-users"> </em> Team</a>
+            <div class="w-400 mw-full">
+              <div class="card p-0">
+                <img
+                  src="Images/OER_StudieAdvies.JPG"
+                  class="img-fluid rounded-top"
+                  alt="OER_StudieAdvies"
+                />
+                <div class="content">
+                  <h2 class="content-title">OER & Studie Advies</h2>
+                  <p class="text-muted">
+                    Deze pagina is gemaakt door Wen Jie, hier wordt alles
+                    weergegeven over onze OER, het studieadvies en de
+                    benodigdheden om over te gaan.
+                  </p>
+                  <div class="text-right">
+                    <a href="OER&Studieadvies.html" class="btn"> Lees verder </a>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
-        <!-- Sidebar end -->
 
-        <!-- Content wrapper start -->
-        <div class="content-wrapper">
-            <!--
-        Add your page's main content here
-        Examples:
-        1. https://www.gethalfmoon.com/docs/content-and-cards/#building-a-page
-        2. https://www.gethalfmoon.com/docs/grid-system/#building-a-dashboard
-      -->
-            <!--ALigned to the center-->
-            <div class="text-center">
-                <img src="Images/Banner.png" class="img-fluid rounded" alt="Banner">
+            <div class="w-400 mw-full">
+              <div class="card p-0">
+                <img
+                  src="Images/Teams pagina ss.png"
+                  class="img-fluid rounded-top"
+                  alt="Teams pagina ss"
+                />
+                <div class="content">
+                  <h2 class="content-title">About</h2>
+                  <p class="text-muted">
+                    Deze pagina is gemaakt door Bo, hier wordt alles weergegeven
+                    over onze groep, een foto en wat iedereen heeft gedaan.
+                  </p>
+                  <div class="text-right">
+                    <a href="about.html" class="btn"> Lees verder </a>
+                  </div>
+                </div>
+              </div>
             </div>
+
+            <div class="w-400 mw-full">
+              <div class="card p-0">
+                <img
+                  src="Images/CoronaMaat.JPG"
+                  class="img-fluid rounded-top"
+                  alt="OER_StudieAdvies"
+                />
+                <div class="content">
+                  <h2 class="content-title">Corona maatregelen</h2>
+                  <p class="text-muted">
+                    Deze pagina is gemaakt door Ronan, hier wordt alles
+                    weergegeven over onze corona maatregelen, hoe wij hiermee omgaan en hoe we de leerlingen het best kunnen ondersteunen.
+                  <div class="text-right">
+                    <a href="CoronaMaat.html" class="btn"> Lees verder </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w-400 mw-full">
+              <div class="card p-0">
+                <img
+                  src="Images/Verzuim.JPG"
+                  class="img-fluid rounded-top"
+                  alt="OER_StudieAdvies"
+                />
+                <div class="content">
+                  <h2 class="content-title">Verzuim</h2>
+                  <p class="text-muted">
+                    Deze pagina is gemaakt door Bo, hier wordt alles
+                    weergegeven over onze regels rondom verzuim, wat wij doen, wanneer het gebeurt en alle soorten verzuimen
+                  <div class="text-right">
+                    <a href="verzuim.html" class="btn"> Lees verder </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="w-400 mw-full">
+              <div class="card p-0">
+                <div class="px-card py-10 border-bottom">
+                  <h2 class="card-title font-size-18 m-0">
+                    Join mailing list
+                  </h2>
+                </div>
+                <!--Join mailing list-->
+                <div class="content">
+                  <form action="index.html" method="...">
+                    <div class="form-group input-group">
+                      <div class="input-group-prepend">
+                        <span class="input-group-text">
+                          <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                        </span>
+                      </div>
+                      <input type="email" class="form-control" placeholder="Your email" required="required">
+                    </div>
+                    <input class="btn btn-primary btn-block" type="submit" value="Subscribe">
+                  </form>
+                </div>
+                <!-- card footer -->
+                <div class="px-card py-10 bg-light-lm bg-very-dark-dm rounded-bottom">
+                  <p class="font-size-12 m-0">
+                    We zullen u vertellen wanneer er meer nieuws is. Geen spam, geen marketing, dat beloven we. <!--u sure? :)--> 
+                  </p>
+                </div>
+              </div>
+            </div>
+
+          </div>
         </div>
-        <!-- Content wrapper end -->
+      </div>
+      <!-- Content wrapper end -->
     </div>
     <!-- Page wrapper end -->
 
     <!-- Halfmoon JS -->
     <script src="halfmoon/js/halfmoon.min.js"></script>
-</body>
-
+  </body>
 </html>
